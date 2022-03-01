@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="stateJS.js"></script>
+<style>
+    *{
+        background-color: lightseagreen;
+    }
+    .div_demo{
+        background-color: rgb(194,238,223);
+        width: 50%;
+        height: 300px;
+        padding: 20px;
+        font-size: 20px;
+        border: 18px;
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <div class="div_demo">
+        <select id = "state" onChange="myFunction()">
+            <option> Select state </option>
+            <option value="AZ"> Arizona </option>
+            <option value="Cali"> California </option>
+            <option value="Washington"> Washington </option>
+            <option value="Nevada"> Nevada </option>
+        </select>
+
+        <div id = "capital">
+            <option> Capital </option>
+        </div>
+    </div>
+</html>
